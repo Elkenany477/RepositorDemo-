@@ -26,7 +26,10 @@ Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _roo
 
 ```bash
 # using npm
-npm run android
+npm react-native run-android
+
+# using adb (for check connect of real device)
+adb reverse tcp:8081 tcp:8081
 
 # OR using Yarn
 yarn android
